@@ -1,0 +1,21 @@
+.footer__sobre_mi{
+    display: flex;
+    font-size: 3rem;
+    margin-left: 5rem;
+    /*color: #FFF;*/
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer__sobre_mi-titulo{
+    /*color: #FFF;*/
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.footer__sobre_mi-descripcion{
+    /*color: #FFF;*/
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+}

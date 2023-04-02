@@ -1,0 +1,26 @@
+.footer__contacto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 3rem;
+}
+
+.footer__contacto-titulo{
+    display: flex;
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer__contacto-email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.footer__icon{
+    font-size: 2.5rem;
+    color: red;
+}
+

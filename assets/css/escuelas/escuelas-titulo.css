@@ -1,0 +1,22 @@
+.escuelas__titulo{
+    color: #DA2B1F;
+    /*font-family: Pacifico, cursive;*/
+    font-family: "Open-Dyslexic";
+    font-weight: bold;
+    /*background-color: transparent;*/
+    /*text-shadow: 5px 5px 50px #FFF;*/
+    text-shadow: 0 0 10px #000, 0 0 15px blueviolet;
+    -webkit-text-stroke: 1px #FFF;
+}
+
+@media screen and (min-width: 0){
+    .escuelas__titulo{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .escuelas__titulo{
+        font-size: 3.1875rem;
+    }
+}

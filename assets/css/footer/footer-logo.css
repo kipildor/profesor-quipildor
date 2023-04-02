@@ -1,0 +1,14 @@
+.footer__logo{
+    display: flex;
+    /*color: #FFF;
+    font-weight: 400;
+    font-size: 1.25rem;*/
+    align-items: center;
+    padding: 1.5625rem;
+
+}
+
+.footer__logo-img{
+    max-width: 15rem;
+    /*width: 20px;*/
+}
