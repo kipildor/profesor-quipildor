@@ -1,13 +1,18 @@
 .escuelas{
     text-align: center;
     background-image: url('../../img/wallpaper-animes-01.jpg');
+    background-size: cover;
+    background-position: center;
+    /*background-color: pink;*/
     display: flex;
     align-items: center;
     justify-content: center;
     /*margin-bottom: 2rem;*/
     flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
-
+/*
 @media screen and (min-width:0){
     .escuelas{
         padding: 2.5rem 1rem;
@@ -18,5 +23,17 @@
     .escuelas{
         padding: 2.5rem;
     }
+
+}
+*/
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:768px) {
+
+}
+
+@media screen and (max-width:576) {
 
 }

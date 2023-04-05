@@ -7,6 +7,7 @@
     /*text-shadow: 5px 5px 50px #FFF;*/
     text-shadow: 0 0 10px #000, 0 0 15px blueviolet;
     -webkit-text-stroke: 1px #FFF;
+    margin-bottom: 1.5rem;
 }
 
 @media screen and (min-width: 0){

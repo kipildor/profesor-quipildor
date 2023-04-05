@@ -1,0 +1,45 @@
+.toggle-menu{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    cursor: pointer;
+    font-size: 2rem;
+    display: none;
+}
+.main-menu{
+    display: flex;
+    transform: translateY(0);
+    /*transform: translateY(-100%);*/
+}
+
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:768px) {
+    .toggle-menu{
+        display: block;
+        z-index: 2;
+    }
+    .fa-bars{
+        width: 100%;
+    }
+    .main-menu{
+        flex-direction: column;
+        align-items: center;
+        transform: translateY(-1000%);
+        transition: transform 0.3s;
+        /*display: none;*/
+        height: 2.5rem;
+    }
+    .main-menu--show{
+        transform: translateY(0);
+        /*display: block;*/
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width:576) {
+
+}

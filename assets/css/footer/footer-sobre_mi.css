@@ -17,5 +17,31 @@
     /*color: #FFF;*/
     font-size: 1.5rem;
     line-height: 2rem;
+}
 
+
+@media screen and (max-width:768px) {
+    .footer__sobre_mi{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .footer__sobre_mi-titulo{
+        /*color: #FFF;*/
+        /*font-size: 2.5rem;*/
+        padding-bottom: .25rem;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .footer__sobre_mi{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .footer__sobre_mi-titulo{
+        padding-bottom: .25rem;
+    }
+    .footer__sobre_mi-descripcion{
+
+    }
 }

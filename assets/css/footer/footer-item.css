@@ -1,3 +1,23 @@
-.footer__item{
+.footer-item{
     list-style: none;
+    flex-shrink: 1;
+    max-width: 33%;
+}
+
+@media screen and (max-width:768px) {
+    .footer-item{
+        max-width: 100%;
+        text-align: left;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .footer-item{
+        max-width: 100%;
+        text-align: left;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
 }
