@@ -12,6 +12,9 @@
     /*transform: translateY(-100%);*/
 }
 
+
+
+
 @media screen and (max-width:1024px) {
 
 }
@@ -38,6 +41,10 @@
         height: auto;
     }
 
+    .dropdown-menu{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width:576) {
