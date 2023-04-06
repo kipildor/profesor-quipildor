@@ -9,7 +9,7 @@
     /*background-color: #f2f2f2;*/
 }
 .main-nav ul li:hover ul {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     color: darkgrey;
 
     display: block;

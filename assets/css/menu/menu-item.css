@@ -29,9 +29,19 @@
     border-style: solid;
     border-color: #0F0F0F;
     margin-left: 10rem;
+    /*text-decoration: none;*/
 }
 .dropdown-menu .dropdown-menu-item .menu__link {
     padding-right: 1rem;
+    /*text-decoration: none;*/
+    /*text-decoration: underline dashed !important;*/
+    /*text-decoration-color: red;*/
+}
+.dropdown-menu .dropdown-menu-item a {
+    /*text-decoration: underline dashed !important;*/
+    /*text-decoration-color: red;*/
+    /*text-decoration: none !important;*/
+    /*color: aqua;*/
 }
 .dropdown-menu-item .menu__link{
     font-size: 1.5rem;
