@@ -1,0 +1,20 @@
+.clase__cabecera{
+    font-size: 1.5rem;
+    padding-bottom: .7rem;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.clase__cabecera--TP{
+    flex-direction: column;
+}
+
+.clase__titulo{
+    text-decoration: underline double;
+}
+
+.clase__fecha--TP{
+    padding-top: 1rem;
+    color: red;
+}

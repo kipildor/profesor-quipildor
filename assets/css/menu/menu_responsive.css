@@ -45,6 +45,9 @@
         display: flex;
         flex-direction: column;
     }
+    .dropdown-menu--show{
+
+    }
     .dropdown-menu-item{
         flex-direction: column;
         width: 100%;

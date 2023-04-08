@@ -46,6 +46,9 @@
 .dropdown-menu-item .menu__link{
     font-size: 1.5rem;
 }
+.dropdown-menu .dropdown-menu-item .dropdown-item--activo {
+    color: #ac0707;
+}
 
 .dropdown-menu .menu__item{
     /*padding: 0 1rem 1rem 2rem;*/

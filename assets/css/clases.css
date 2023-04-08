@@ -1,0 +1,43 @@
+.clases{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.clase{
+    background-color: #000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /*text-align: left;
+    justify-content: flex-start;*/
+}
+
+.clases-separador{
+    width: 100%;
+}
+
+@media screen and (max-width:1024px) {
+    .clases{
+        width: 750px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .clases{
+        width: 550px;
+    }
+
+}
+
+@media screen and (max-width:576) {
+    .clases{
+        max-width: 90%;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

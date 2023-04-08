@@ -1,0 +1,6 @@
+.clase__archivos{
+    justify-content: space-around;
+    display: flex;
+    /*border-style: dashed;
+    border-width: .2rem;*/
+}

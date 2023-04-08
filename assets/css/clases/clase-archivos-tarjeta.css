@@ -1,0 +1,25 @@
+.clase__archivos-tarjeta{
+    border-style: dashed;
+    border-width: .2rem;
+    padding: .5rem;
+    justify-content: center;
+    text-align: center;
+}
+.archivo--obligatorio{
+    border-color: red;
+}
+.archivo--extra{
+    border-color: greenyellow;
+}
+
+.tarjeta__nombreArchivo{
+    font-size: .9rem;
+    text-transform: uppercase;
+}
+.tarjeta__imagen{
+
+}
+.tarjeta__links{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
