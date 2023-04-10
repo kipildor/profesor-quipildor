@@ -18,3 +18,20 @@
     padding-top: 1rem;
     color: red;
 }
+
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:768px) {
+    .clase__cabecera{
+        flex-direction: column;
+    }
+    .clase__fecha{
+        padding-top: .8rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+}

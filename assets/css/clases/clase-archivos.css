@@ -4,3 +4,24 @@
     /*border-style: dashed;
     border-width: .2rem;*/
 }
+
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:768px) {
+    .clase__archivos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .clase__archivos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .clase__archivos-tarjeta{
+        /*flex-wrap: wrap;*/
+    }
+}

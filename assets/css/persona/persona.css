@@ -3,6 +3,9 @@
     flex-direction: column;
 }
 
+
+/*      CAMBIAR MIN POR MAX     */
+
 @media screen and (min-width:0){
     .persona{
         margin-bottom: 2rem;

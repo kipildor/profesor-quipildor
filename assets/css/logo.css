@@ -1,3 +1,5 @@
+/*      CAMBIAR MIN POR MAX     */
+
 @media screen and (min-width: 0) {
     .logo{
         display: none;

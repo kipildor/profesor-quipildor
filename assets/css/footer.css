@@ -33,7 +33,7 @@ footer{
     }
 }
 
-@media screen and (max-width:576) {
+@media screen and (max-width:576px) {
     .footer{
         padding: 0;
         /*padding-left: 10rem;*/

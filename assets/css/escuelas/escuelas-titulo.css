@@ -10,6 +10,9 @@
     margin-bottom: 1.5rem;
 }
 
+
+
+/*      CAMBIAR MIN POR MAX     */
 @media screen and (min-width: 0){
     .escuelas__titulo{
         font-size: 2rem;

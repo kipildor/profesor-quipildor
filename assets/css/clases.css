@@ -33,10 +33,10 @@
 
 }
 
-@media screen and (max-width:576) {
+@media screen and (max-width:576px) {
     .clases{
+        /*width: 300px;*/
         max-width: 90%;
-        width: 90%;
         padding-left: 5%;
         padding-right: 5%;
     }

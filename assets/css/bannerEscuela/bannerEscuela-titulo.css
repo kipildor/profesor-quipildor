@@ -17,11 +17,26 @@
     -webkit-text-fill-color: transparent;
     animation: textclip 4s linear infinite;
     display: inline-block;
-    font-size: 7rem;
+    font-size: 5rem;
 }
 
 @keyframes textclip {
   to {
     background-position: 200% center;
   }
+}
+
+@media screen and (max-width:1024px) {
+  .animate-character{
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width:768px) {
+
+
+}
+
+@media screen and (max-width:576px) {
+
 }
