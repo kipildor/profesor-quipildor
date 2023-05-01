@@ -12,7 +12,7 @@
 .menu__lista li ul {
     display: none;
     position: absolute;
-    min-width: 140px;
+    min-width: 270px;/* ANCHO DEL FONDO DEL DROPDOWN DEL NAV DEL ENCABEZADO */
 }
 
 .menu__lista li:hover > ul {

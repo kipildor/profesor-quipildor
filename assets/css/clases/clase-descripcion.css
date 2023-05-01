@@ -2,3 +2,9 @@
     font-size: 1.2rem;
     padding-bottom: .7rem;
 }
+.clase .clase__descripcion--instrucciones{
+    color: gold;
+}
+.clase .clase__descripcion--naranja{
+    color: darkorange;
+}
